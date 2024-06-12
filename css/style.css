@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    /* gap: 30px; */
+    position: fixed;
+    align-items: center;
+    padding: 10px 60px;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    background-color: #333;
+}
+
+#logo {
+    align-items: center;
+    max-height: 50px;
+}
+
+#left-nav-links, #right-nav-links {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#left-nav-links li a, #right-nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+#hero {
+    background-image: url(../assets/images/hero-bg.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size:cover;
+    
+}
+
+#hero-overlay {
+    /* color: white; */
+    /* background-color: rgba(0, 0, 0.5, #dbd0c3); */
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+    padding-top: 40px;
+    padding-left: 50px;
+    column-gap: 40px;
+}
+
+#hero-p {
+    font-size: 20px;
+    padding-top: 40px;
+    color: green;
+}
+
+#hero-h {
+    padding-top: 40px;
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+
+}
+
+#hero-pp {
+    font-size: 22px;
+    padding-top: 40px;
+    color: white;
+}
+
+#hero-button {
+    margin-top: 40px;
+}
