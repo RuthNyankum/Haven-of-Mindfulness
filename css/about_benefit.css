@@ -9,7 +9,13 @@
 }
 
 #sub-about {
+    /* background-color: #FFFFFF; */
     padding-left: 40px;
+    width: 50%;
+    height: 100%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px;
 }
 
 #about-p {
@@ -21,19 +27,25 @@
 #about-h {
         padding-top: 40px;
         color: black;
-        font-size: 60px;
+        font-size: 40px;
         /* text-transform: uppercase; */
+        line-height: 55px;
     
 }
     
 #about-pp {
-        font-size: 22px;
+        font-size: 16px;
         padding-top: 40px;
         color: black;
+        text-align: justify;
 }
     
  #about-button {
         margin-top: 40px;
+        padding: 10px 15px;
+        background-color: rgb(0, 128, 0);
+        color: #F0F0F0;
+        text-transform: uppercase;
 }
 
 
@@ -41,8 +53,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
-    background-color: white;
-    padding-right: 40px;
+    /* background-color: white; */
+    padding-right: 30px;
+    padding-left: 20px;
     width: 50%;
 }
 
@@ -64,93 +77,135 @@
 /* BENEFIT OF MEDITATION */
 #benefit {
     width: 100vw;
-    height: 70%;
+    /* height: 70vh; */
+    /* height: 70%; */
     /* position: absolute; */
-}
-
-.grid-benefits {
+  }
+  
+  .benefit-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  
+  .benefit-head #benefit-p {
+    color: green;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .benefit-head #benefit-h {
+    font-size: 40px;
+    text-transform: capitalize;
+  }
+  
+  .benefit-head hr {
+    border: 1px solid green;
+    width: 200px;
+    margin-top: 20px;
+  }
+  
+  .benefit-head #benefit-pp {
+    text-align: center;
+    line-height: 30px;
+    color: gray;
+  }
+  
+  .grid-benefits {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     gap: 10px;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
     /* width: 100vw;
-    height: 60%; */
+      height: 60%; */
     padding: 50px;
-}
-
-.grid-benefits > div {
+  }
+  
+  .grid-benefits > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    padding: 40% 0;
+    /* padding: 40% 0; */
     font-size: 30px;
-}
-
-.left-benefit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .grid-benefits > div:not(.middle-item) {
+    padding: 0 10px;
+  }
+  
+  .left-benefit {
     grid-column: 1;
-}
-
-.left-benefit div p {
+  }
+  
+  .left-benefit div p {
     font-size: 16px;
-}
-
-.middle-item {
+    color: gray;
+    margin-top: 5px;
+  }
+  
+  .middle-item {
     grid-column: 2;
     grid-row: 1 / 4;
     text-align: center;
     pad: 0;
-}
-
-.middle-item img {
+  }
+  
+  .middle-item img {
     width: 80%;
     height: 80%;
-}
-
-.right-benefit {
+  }
+  
+  .right-benefit {
     grid-column: 3;
-}
-
-.right-benefit div p {
+  }
+  
+  .right-benefit div p {
     font-size: 16px;
-}
-
-.benefit-icon {
+    color: gray;
+    margin-top: 5px;
+  }
+  
+  .benefit-icon {
     height: 50px;
     width: 50px;
-} 
-
-#left-display {
+  }
+  
+  #left-display {
     display: flex;
-}
-
-/* #benefit-header {
-    text-align: center;
-} */
-
-/* #benefit-sub-header {
-    display: flex;
-    background-color: #F5F5F5;
-} */
-/* 
-
-
-
-
-#benefit-p {
-    font-size: 20px;
-    padding-top: 40px;
-    color: green;
-}
-
-#benefit-h {
+  }
+  
+  /* #benefit-header {
+      text-align: center;
+  } */
+  
+  /* #benefit-sub-header {
+      display: flex;
+      background-color: #F5F5F5;
+  } */
+  /* 
+  
+  
+  
+  
+  #benefit-p {
+      font-size: 20px;
+      padding-top: 40px;
+      color: green;
+  }
+  
+  #benefit-h {
+      padding-top: 40px;
+      color: black;
+      font-size: 60px;
+      text-transform: uppercase; */
+  
+  #benefit-pp {
+    font-size: 16px;
     padding-top: 40px;
     color: black;
-    font-size: 60px;
-    text-transform: uppercase; */
-
-
-
-#benefit-pp {
-    font-size: 22px;
-    padding-top: 40px;
-    color: black;
-}    
+  }

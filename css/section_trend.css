@@ -9,11 +9,43 @@
     justify-content:space-around;
     align-items: center;
     /* padding: 10px; */
-    margin-top: 0;
+    /* margin-top: 0; */
 }
 
 #sub-trends img {
     width: 300px;
     height: auto;
-
 }
+
+.second-trend {
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* OUR SECTION */
+.section-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+  }
+
+  .section-head #section-p {
+    color: green;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  
+  .section-head #section-h {
+    font-size: 40px;
+    text-transform: capitalize;
+  }
+
+  /* .section-head #section-pp {
+    text-align: center;
+    line-height: 30px;
+    color: gray;
+  } */ not workin for the section
