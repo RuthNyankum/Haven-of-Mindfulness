@@ -64,31 +64,76 @@
 /* BENEFIT OF MEDITATION */
 #benefit {
     width: 100vw;
-    height: 80%;
-    position: absolute;
+    height: 70%;
+    /* position: absolute; */
 }
 
-#benefit-header {
-    text-align: center;
-}
-
-#benefit-sub-header {
-    display: flex;
+.grid-benefits {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 10px;
     background-color: #F5F5F5;
+    /* width: 100vw;
+    height: 60%; */
+    padding: 50px;
+}
+
+.grid-benefits > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 40% 0;
+    font-size: 30px;
+}
+
+.left-benefit {
+    grid-column: 1;
+}
+
+.left-benefit div p {
+    font-size: 16px;
+}
+
+.middle-item {
+    grid-column: 2;
+    grid-row: 1 / 4;
+    text-align: center;
+    pad: 0;
+}
+
+.middle-item img {
+    width: 80%;
+    height: 80%;
+}
+
+.right-benefit {
+    grid-column: 3;
+}
+
+.right-benefit div p {
+    font-size: 16px;
 }
 
 .benefit-icon {
     height: 50px;
     width: 50px;
+} 
+
+#left-display {
+    display: flex;
 }
 
-/* #left-benefits, #right-benefits {
-    display: flex;
+/* #benefit-header {
+    text-align: center;
 } */
 
-.benefit-div {
+/* #benefit-sub-header {
     display: flex;
-}
+    background-color: #F5F5F5;
+} */
+/* 
+
+
+
 
 #benefit-p {
     font-size: 20px;
@@ -100,9 +145,9 @@
     padding-top: 40px;
     color: black;
     font-size: 60px;
-    /* text-transform: uppercase; */
+    text-transform: uppercase; */
 
-}
+
 
 #benefit-pp {
     font-size: 22px;

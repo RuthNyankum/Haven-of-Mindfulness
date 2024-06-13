@@ -1,0 +1,19 @@
+.trends {
+    width: 100vw;
+    height: 600px;
+    background-color: green;
+}
+
+#sub-trends {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /* padding: 10px; */
+    margin-top: 0;
+}
+
+#sub-trends img {
+    width: 300px;
+    height: auto;
+
+}

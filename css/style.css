@@ -4,6 +4,29 @@
     box-sizing: border-box;
 }
 
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  /* font-variation-settings:
+    "wdth" 100; */
+}
+
+
+/* NAIGATION BAR */
 nav {
     display: flex;
     align-items: center;
@@ -58,13 +81,13 @@ nav {
     column-gap: 40px;
 }
 
-#hero-p {
+.p {
     font-size: 20px;
     padding-top: 40px;
     color: green;
 }
 
-#hero-h {
+.h {
     padding-top: 40px;
     color: white;
     font-size: 60px;
@@ -72,7 +95,7 @@ nav {
 
 }
 
-#hero-pp {
+.pp {
     font-size: 22px;
     padding-top: 40px;
     color: white;
