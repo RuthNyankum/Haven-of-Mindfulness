@@ -1,7 +1,11 @@
+/* ABOUT SECTION */
 #about {
     display: flex;
     padding: 50px;
     /* height: 80%; */
+    width: 100vw;
+    height: 80%;
+    background-color: #F0F0F0;
 }
 
 #sub-about {
@@ -57,3 +61,51 @@
 }
 
 
+/* BENEFIT OF MEDITATION */
+#benefit {
+    width: 100vw;
+    height: 80%;
+    position: absolute;
+}
+
+#benefit-header {
+    text-align: center;
+}
+
+#benefit-sub-header {
+    display: flex;
+    background-color: #F5F5F5;
+}
+
+.benefit-icon {
+    height: 50px;
+    width: 50px;
+}
+
+/* #left-benefits, #right-benefits {
+    display: flex;
+} */
+
+.benefit-div {
+    display: flex;
+}
+
+#benefit-p {
+    font-size: 20px;
+    padding-top: 40px;
+    color: green;
+}
+
+#benefit-h {
+    padding-top: 40px;
+    color: black;
+    font-size: 60px;
+    /* text-transform: uppercase; */
+
+}
+
+#benefit-pp {
+    font-size: 22px;
+    padding-top: 40px;
+    color: black;
+}    
