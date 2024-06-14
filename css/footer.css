@@ -1,0 +1,108 @@
+#footer{
+    min-height: 50vh;
+    background-color: #222222;
+
+}
+
+#footer footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    color: white;
+    padding: 100px 150px;
+    margin: 0 auto;
+}
+
+#footer .info{
+    width: 45%;
+}
+
+footer .info .logo img{
+    height: fit-content;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+footer .info .footer-text{
+    width: 80%;
+    line-height: 25px;
+}
+
+footer .info .fa-brands{
+    font-size: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+footer .info .fa-brands:not(:last-child){
+    margin-right: 15px;
+}
+
+footer .info .fa-brands:hover{
+    color: green;
+}
+
+footer .quick-links{
+    width: 30%;
+    padding: 30px 20px;
+}
+
+.quick-links h2{
+    margin-bottom: 30px;
+    color: green;
+    font-size: 30px;
+}
+
+.quick-links .links{
+    display: flex;
+    gap: 80px;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+}
+
+.quick-links .links li{
+    list-style: none;
+}
+
+.links .fa-solid{
+    color: green;
+    margin-right: 5px;
+}
+
+.links li:not(:last-child){
+    margin-bottom: 18px;
+}
+
+.links li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.links ul li a:hover{
+    color: green;
+}
+
+footer .address{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer .address h3{
+    font-size: 25px;
+}
+
+footer .address .fa-solid{
+    margin-right: 5px;
+    color: green;
+}
+
+footer .address .phone-contact span{
+    margin-left: 30px;
+}
+
+footer .address .email-contact span{
+    margin-left: 30px;
+}

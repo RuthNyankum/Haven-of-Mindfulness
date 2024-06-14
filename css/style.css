@@ -33,7 +33,7 @@ nav {
     /* gap: 30px; */
     position: fixed;
     align-items: center;
-    padding: 10px 60px;
+    padding: 10px 70px;
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
@@ -60,6 +60,13 @@ nav {
     text-decoration: none;
     color: white;
     font-size: 14px;
+    transition: background-color 0.3s ease
+}
+
+nav ul li a:hover{
+    background-color: green;
+    /* color: green; */
+    padding: 15px;
 }
 
 
@@ -68,24 +75,23 @@ nav {
     background-image: url(../assets/images/hero-bg.jpg);
     height: 100vh;
     width: 100vw;
-    background-size:cover;
-    
+    background-size:cover;   
 }
 
 #hero-overlay {
-    /* color: white; */
-    /* background-color: rgba(0, 0, 0.5, #dbd0c3); */
+    color: white;
     background-color: rgba(0, 0, 0, 0.5);
     height: 100vh;
     width: 100vw;
     padding-top: 40px;
     padding-left: 50px;
     column-gap: 40px;
-    justify-content: center;
+    /* justify-content: center;
+    align-items: center; */
 }
 
 .p {
-    font-size: 20px;
+    font-size: 22px;
     padding-top: 40px;
     color: green;
 }
@@ -95,22 +101,30 @@ nav {
     color: white;
     font-size: 60px;
     text-transform: uppercase;
-    font-size: 50px;
-
+    line-height: 70px;
 }
 
 .pp {
-    font-size: 16px;
+    font-size: 18px;
     padding-top: 40px;
     color: white;
 }
 
-#hero-button {
+.button {
     margin-top: 40px;
     text-transform: uppercase;
     padding: 10px 15px;
     background-color: green;
     color: white;
+    font-size: 22px;
+}
+
+.button:hover {
+    color: black;
+    background-color: white;
+    stroke: green;
+    stroke-width: 5px;
+    cursor: pointer;
 }
 
 #ppppp {
