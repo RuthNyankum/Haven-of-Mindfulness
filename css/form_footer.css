@@ -1,3 +1,74 @@
+/* FORM SECTION */
+#input-grid {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+
+}
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 650px;
+    max-width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"] {
+    display: inline-block;
+    width: calc(50% - 15px);
+    margin-right: 10px;
+}
+
+.form-group input[type="text"]:nth-child(2) {
+    margin-right: 0;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.submit-button:hover {
+    color: black;
+    background-color: white;
+    stroke: green;
+    stroke-width: 20px;
+}
+
+
+/* FOOTER SECTION */
 #footer{
     min-height: 50vh;
     background-color: #222222;

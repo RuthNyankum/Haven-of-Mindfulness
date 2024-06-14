@@ -1,0 +1,175 @@
+#trends {
+    width: 100vw;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #f5f5f5; */
+}
+
+#trends .trends-text-box{
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+    /* background-color: #fff; */
+}
+
+#trends .trends-text-box p:nth-of-type(1){
+    color: green;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#trends .trends-text-box h4{
+    font-size: 60px;
+}
+
+.trends-text-box hr {
+  border: 1px solid green;
+  width: 200px;
+  margin: 20px auto 0;
+}
+
+#trends .trends-text-box p:nth-of-type(2){
+    color: gray;
+    line-height: 30px;
+    margin: 0 auto 25px;
+    font-size: 22px;
+    padding-top: 40px;
+    width: 60%;
+}
+
+#sub-trends {
+    width: 90%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 70px;
+}
+
+#sub-trends .card{
+    box-shadow: 1px 1px 10px 1px gray;
+    position: relative;
+    /* padding-bottom: 20px; */
+}
+
+#sub-trends .card img {
+    width: 300px;
+    height: auto;
+}
+
+#sub-trends .card h3{
+    padding: 8px;
+}
+
+#sub-trends .card p{
+    color: gray;
+    padding: 8px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+#sub-trends .card a{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 8px;
+    /* margin-top: 50px; */
+    text-decoration: none;
+    background-color: green;
+    color: #fff;
+}
+
+
+
+/**************** Experience Section ******************/
+#experience {
+    width: 100vw;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+    /* background-color: #f5f5f5; */
+}
+
+#experience .experience-text-box{
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+    /* background-color: #fff; */
+}
+
+#experience .experience-text-box p:nth-of-type(1){
+    color: green;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#experience .experience-text-box h4{
+    font-size: 60px;
+}
+
+.experience-text-box hr {
+  border: 1px solid green;
+  width: 200px;
+  margin: 20px auto 0;
+}
+
+#experience .experience-text-box p:nth-of-type(2){
+    color: gray;
+    line-height: 30px;
+    margin: 0 auto 25px;
+    font-size: 22px;
+    padding-top: 40px;
+    width: 60%;
+}
+
+#experience .instructors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.instructors  .instructor-profile{
+    position: relative;
+    cursor: pointer;
+}
+
+#experience .instructors img{
+    height: 500px;
+    box-shadow: 1px 1px 10px 1px gray;
+    cursor: pointer;
+}
+
+.instructors .instructor-details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 128, 0, 0.4);
+    color: #fff;
+    display: none;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.instructor-profile:hover .instructor-details{
+    display: flex;
+}
+
+.instructors .instructor-details h3{
+    font-size: 25px;
+}
+
+/* .instructors-details .socials .fa-brands{
+    font-size: 15px;
+} */
+
