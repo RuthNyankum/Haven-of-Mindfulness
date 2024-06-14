@@ -6,6 +6,7 @@
     align-items: center;
     height: 100%;
     margin: 0;
+    padding: 8rem;
 
 }
 .contact-form {
@@ -47,6 +48,11 @@
 
 .form-group textarea {
     resize: vertical;
+}
+
+.form-group #subject {
+    width: 97.5%;
+    margin-right: 10px;
 }
 
 .submit-button {
